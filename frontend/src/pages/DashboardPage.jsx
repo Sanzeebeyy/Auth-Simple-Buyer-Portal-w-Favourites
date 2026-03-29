@@ -4,12 +4,12 @@ import api from '../api/axios';
 
 // dummy database for properties
 const PROPERTIES = [
-  { id: 1, title: 'Modern Studio in Downtown', location: 'Patan, Lalitpur', price: 'Rs.40,000/mo', type: 'Studio', beds: 0, baths: 1 },
-  { id: 2, title: 'Cozy 2 Bed Apartment', location: 'Patan, Lalitpur', price: '$31,000/mo', type: 'Apartment', beds: 2, baths: 1 },
-  { id: 3, title: 'Spacious Family Home', location: 'Lagankhel, Lalitpur', price: '$48,000/mo', type: 'House', beds: 4, baths: 2 },
-  { id: 4, title: 'Luxury Flat', location: 'Jawalakhel, Lalitpur', price: '$85,000/mo', type: 'Flat', beds: 3, baths: 3 },
-  { id: 5, title: 'Modern Apartment', location: 'Bharatpur, Chitwan', price: '$50,000/mo', type: 'Apartment', beds: 3, baths: 2 },
-  { id: 6, title: 'Sunny 1 Bed Room', location: 'Hakim Chowk, Chitwan', price: '$15,000/mo', type: 'Room', beds: 1, baths: 1 },
+  { id: 1, title: 'Modern Studio', location: 'Patan, Lalitpur', price: 'Rs.40,000/mo', type: 'Studio', beds: 0, baths: 1 },
+  { id: 2, title: 'Cozy 2 Bed Apartment', location: 'Patan, Lalitpur', price: 'Rs.31,000/mo', type: 'Apartment', beds: 2, baths: 1 },
+  { id: 3, title: 'Spacious Family Home', location: 'Lagankhel, Lalitpur', price: 'Rs.48,000/mo', type: 'House', beds: 4, baths: 2 },
+  { id: 4, title: 'Luxury Flat', location: 'Jawalakhel, Lalitpur', price: 'Rs.85,000/mo', type: 'Flat', beds: 3, baths: 3 },
+  { id: 5, title: 'Modern Apartment', location: 'Bharatpur, Chitwan', price: 'Rs.50,000/mo', type: 'Apartment', beds: 3, baths: 2 },
+  { id: 6, title: 'Sunny 1 Bed Room', location: 'Hakim Chowk, Chitwan', price: 'Rs.15,000/mo', type: 'Room', beds: 1, baths: 1 },
 ];
 
 export default function DashboardPage() {
